@@ -31,21 +31,17 @@ public class MainMuniemon {
 				case 1:
 						System.out.println();
 						System.out.println("Ingrese el nombre del muniemon : ");
-						String nomMun = sc.next();
-						m.setNombre(nomMun);
-						
+							String nomMun = sc.next();
+							m.setNombre(nomMun);
 						System.out.println("Asigna la vida al numiemon : ");
-						int v1 = sc.nextInt();
-						m.setVida(v1);
-						
+							int v1 = sc.nextInt();
+							m.setVida(v1);
 						System.out.println("Agregarle el ataque al numiemon : ");
-						String arq1 = sc.next();
-						m.setAtaque(arq1);
-						
+							String arq1 = sc.next();
+							m.setAtaque(arq1);
 						System.out.println("Ingrese la defensa de su numiemon : ");
-						String def = sc.next();
-						m.setDefensa(def);
-						
+							String def = sc.next();
+							m.setDefensa(def);
 						System.out.println("El tipo de pokemon solo puede ser AGUA ,FUEGO,PLANTA");
 						for (int j = 0; j < Tipos.values().length; j++) {
 							System.out.println(j+"-"+Tipos.values()[j]);
@@ -58,21 +54,17 @@ public class MainMuniemon {
 				case 2:
 						System.out.println();
 						System.out.println("Ingrese el nombre del muniemon : ");
-						String nomMun2 = sc.next();
-						m2.setNombre(nomMun2);
-						
+							String nomMun2 = sc.next();
+							m2.setNombre(nomMun2);
 						System.out.println("Asigna la vida al numiemon : ");
-						int v2 = sc.nextInt();
-						m2.setVida(v2);
-						
+							int v2 = sc.nextInt();
+							m2.setVida(v2);
 						System.out.println("Agregarle el ataque al numiemon : ");
-						String arq2 = sc.next();
-						m2.setAtaque(arq2);
-						
+							String arq2 = sc.next();
+							m2.setAtaque(arq2);
 						System.out.println("Ingrese la defensa de su numiemon : ");
-						String def2 = sc.next();
-						m2.setDefensa(def2);
-						
+							String def2 = sc.next();
+							m2.setDefensa(def2);
 						System.out.println("El tipo de pokemon solo puede ser AGUA ,FUEGO,PLANTA : ");
 						for (int k = 0; k < Tipos.values().length; k++) {
 							System.out.println(k+"-"+Tipos.values()[k]);
@@ -89,7 +81,6 @@ public class MainMuniemon {
 				case 4:
 					//Muestra por pantalla el segundo muniemon
 					System.out.println(m2);
-					
 					break;	
 				case 5:
 					
@@ -102,7 +93,6 @@ public class MainMuniemon {
 					
 					break;	
 				case 7:
-					
 					q = false;
 					sc.close();
 					System.out.println("Has cerrado el programa");

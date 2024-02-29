@@ -64,7 +64,7 @@ public class Muniemon {
 				+"\t|"+ "\tMuniemon nombre = " + nombre +"\t\t|\r"
 				+"\t|"+ "\tvida = " + vida +"\t\t\t|\r"
 				+"\t|"+ "\tataque = " + ataque +"\t\t\t|\r"
-				+"\t|"+ "\tdefensa = " + defensa+"  \t\t|\r"
+				+"\t|"+ "\tdefensa = " + defensa+"\t\t\t|\r"
 				+"\t|"+ "\ttipo = " + tipo +"\t\t\t|\r"+
 				"\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 				

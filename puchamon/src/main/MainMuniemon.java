@@ -1,6 +1,9 @@
-package game;
+package main;
 
 import java.util.Scanner;
+
+import game.Muniemon;
+import game.Tipos;
 
 public class MainMuniemon {
 	Scanner sc = new Scanner(System.in);
@@ -37,10 +40,10 @@ public class MainMuniemon {
 							int v1 = sc.nextInt();
 							m.setVida(v1);
 						System.out.println("Agregarle el ataque al numiemon : ");
-							String arq1 = sc.next();
+							int arq1 = sc.nextInt();
 							m.setAtaque(arq1);
 						System.out.println("Ingrese la defensa de su numiemon : ");
-							String def = sc.next();
+						int def = sc.nextInt();
 							m.setDefensa(def);
 						System.out.println("El tipo de pokemon solo puede ser AGUA ,FUEGO,PLANTA");
 						for (int j = 0; j < Tipos.values().length; j++) {
@@ -60,10 +63,10 @@ public class MainMuniemon {
 							int v2 = sc.nextInt();
 							m2.setVida(v2);
 						System.out.println("Agregarle el ataque al numiemon : ");
-							String arq2 = sc.next();
+							int arq2 = sc.nextInt();
 							m2.setAtaque(arq2);
 						System.out.println("Ingrese la defensa de su numiemon : ");
-							String def2 = sc.next();
+							int def2 = sc.nextInt();
 							m2.setDefensa(def2);
 						System.out.println("El tipo de pokemon solo puede ser AGUA ,FUEGO,PLANTA : ");
 						for (int k = 0; k < Tipos.values().length; k++) {
@@ -83,13 +86,11 @@ public class MainMuniemon {
 					System.out.println(m2);
 					break;	
 				case 5:
-					
-					System.out.println(m);
-					
+					m.atacarMuniemon(m);
+				
 					break;	
 				case 6:
-					
-					System.out.println(m);
+					m.atacarMuniemon(m2);
 					
 					break;	
 				case 7:

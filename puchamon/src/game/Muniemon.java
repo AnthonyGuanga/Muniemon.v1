@@ -1,8 +1,5 @@
 package game;
 
-import java.awt.Menu;
-import java.util.Scanner;
-
 public class Muniemon {
 
 	private String nombre;
